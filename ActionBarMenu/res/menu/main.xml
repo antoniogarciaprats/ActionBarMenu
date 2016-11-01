@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.antoniogarciaprats.actionbarmenutest.MainActivity" >
+    
+    <item 
+        android:id="@+id/menu_rojo" 
+        android:enabled="true" 
+        android:title="menu rojo" 
+        android:checkable="true" 
+        android:orderInCategory="1" 
+        android:visible="true"
+        android:showAsAction="never" />
+    
+    <item 
+        android:id="@+id/menu_verde" 
+        android:enabled="true" 
+        android:title="menu verde" 
+        android:checkable="true" 
+        android:orderInCategory="1" 
+        android:visible="true"
+        android:showAsAction="never" />
+    
+    
+
+</menu>
